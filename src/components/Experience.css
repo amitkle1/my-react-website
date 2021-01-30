@@ -1,0 +1,25 @@
+.experience {
+  background-color: #242424;
+  display: block;
+  width: fit-content;
+  height: fit-content;
+  font-size: 2rem;
+  color: #fff;
+}
+.experience-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.header {
+  margin-top: 50px;
+  transform: translate(10%, -50%);
+  border-bottom: #39b5cc 2px solid;
+  width: fit-content;
+}
+
+.text {
+  text-align: center;
+  width: 80%;
+}

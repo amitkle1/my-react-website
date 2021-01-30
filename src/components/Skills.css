@@ -1,0 +1,28 @@
+.skills {
+  background-color: #242424;
+}
+
+.skills-container {
+  position: relative;
+  transform: translateY(-100%);
+}
+.skills-container > h1 {
+  color: #fff;
+  border-bottom: solid #39b5cc 1px;
+}
+
+.fab,
+.fa-react {
+  color: brown;
+  animation-name: left-to-right;
+  animation-duration: 5s;
+}
+
+@keyframes left-to-right {
+  from {
+    left: 0;
+  }
+  to {
+    left: 1000px;
+  }
+}
